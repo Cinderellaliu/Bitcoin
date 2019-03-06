@@ -1,0 +1,656 @@
+@media(max-width:1840px){
+	/*左侧栏*/
+	.left-nav{left:0;}
+}
+@media(max-width:1454px){
+	/*首页*/
+	.home-panel-list>li{width:calc((100% - 20px) / 2 );}
+	.home-panel-list>li:nth-child(even){margin-right:0;}
+	.home-panel-list>li:nth-child(odd){margin-right:20px;}
+	.home-panel-txt{width:60%;}
+	.home-list>li{width:calc((100% - 60px) / 3 );margin-bottom:20px;}
+	/*news*/
+	.news-item-txt>h3{margin-top:0;} 
+}
+@media (max-width: 1440px){
+	/*菜单*/
+	.bottom-option{min-width:300px;}
+	/*news*/
+	.news-item-info{padding-top:0;}
+	.news-item-info>li{margin-top:10px;}
+}
+@media (max-width: 1400px){
+	/*底部*/
+	.bottom-info{padding:16px 80px 0;max-width:550px;}
+	.bottom-link,.bottom-lang{padding:35px 80px 0;}
+}
+@media (max-width: 1379px){
+	/*ico_about*/
+	.main-content01 .container{padding-left: 180px;}
+	.financial-box .financial-info:nth-child(2){margin-left: 75px;}
+	/*inside*/
+	.inside-con-bottom .follow{padding-left: 70px;}
+    .inside-inp{width: 300px;}
+}
+@media (max-width: 1372px){
+    .clo-inp .price-top-right input{width: 170px;}
+    .clo-inp .price-top-right{width:220px;}
+    .ico-list .sta-end{width:200px;}
+}
+@media (max-width: 1362px){
+    .price-top .price-top-right{width:200px;}
+    .price-top .price-top-right input{width:160px;}
+}
+@media (max-width: 1340px){
+	/*底部*/
+	.bottom-info{max-width:520px;}
+}
+@media (max-width: 1338px){
+    .btc-price .btc-market-all{padding-left:30px;}
+}
+@media (max-width: 1321px){
+	/*菜单*/
+   .menu-list>li>a{margin-right:0;}
+}
+@media (max-width: 1310px){
+    table.table-bordered.dataTable tr td.special-list img{
+        margin-left:10px;
+    }
+}
+@media (max-width: 1308px){
+	/*头部*/
+	.top-logo{margin-right:4%;}
+	.top-left{width:71.4%}
+	.top-right{width:24%;margin-left:2%;}
+	/*底部*/
+	.bottom-info{max-width:500px;}
+}
+@media (max-width: 1300px){
+    .ico-list .sta-end{width:380px;}
+    .ico-list .sta-dis{display:none;}
+    .ico-list .left-brow{padding:20px;}
+}
+@media (max-width: 1290px){
+    table.table-bordered.dataTable tr td.special-list img{
+        margin-left:5px;
+        margin-right:5px;
+    }
+    table.table-bordered.dataTable tr td.special-list2 img{
+        margin-left:5px;
+        margin-right:5px;
+    }
+}
+@media (max-width: 1288px){
+    .ico-list .sta-end{width:380px;}
+    .clo-inp .price-top-right input{width: 150px;}
+    .clo-inp .price-top-right{width:200px;}
+}
+@media (max-width: 1285px){
+	/*底部*/
+	.bottom-info{max-width:440px;}
+}
+@media (max-width: 1282px){
+    .btc-price .btc-market-all{padding-left:15px;}
+}
+@media (max-width: 1280px){
+	/*inside*/
+	.inside-con-bottom .follow{padding-left: 60px;}
+	.inside-con-bottom .follow-box{width: 100px;}
+    .inside-inp{width: 280px;}
+    .inside-inp input{width: calc(100% - 100px);}
+    .inside-inp a{width: 100px;}
+    .price-top .price-top-right{width:170px;}
+    .price-top .price-top-right input{width:130px;}
+}
+@media (max-width: 1279px){
+    table.table-bordered.dataTable tr td.special-list img{
+        margin-left:2px;
+    }
+    table.table-bordered.dataTable tr td.special-list2 img{
+        margin-left:2px;
+    }
+}
+@media (max-width: 1268px){
+    table.dataTable.ico-list thead th, table.dataTable.ico-list thead td{padding:10px 10px;}
+    .clo-inp .price-top-right input{width: 180px;}
+    .clo-inp .price-top-right{width:230px;}
+}
+@media (max-width: 1250px){
+	/*底部*/
+	.bottom-search>input{width:calc(100% - 100px);}
+	.bottom-search>button{width:100px}
+	.bottom-info{max-width:420px;}
+}
+@media (max-width: 1248px){
+    .price-top .price-top-right{width:100px;}
+    .price-top .price-top-right input{width:60px;}
+}
+@media (max-width: 1240px){
+    .btc-price .btr-all{width:38%;padding:0 20px;}
+    .btc-price .btc-market-all{width:39%;}
+}
+@media (max-width: 1200px){
+	/*菜单*/
+	.menu-search{width:188px;}
+	.menu-search>input{width:126px;}
+	/*底部*/
+	.bottom-info{max-width:390px;}
+	.bottom-search>input{width:calc(100% - 80px);}
+	.bottom-search>button{width:80px;font-size:12px;}
+	/*feeds*/
+	.feeds-top .feeds-top-right{width:180px;}
+	.feeds-top .feeds-top-right input{width:130px;}
+}
+@media (max-width: 1184px){
+    table.dataTable.ico-list thead th, table.dataTable.ico-list thead td{padding:10px 5px;}
+    .clo-inp .price-top-right input{width: 140px;}
+    .clo-inp .price-top-right{width:190px;}
+}
+@media (max-width: 1182px){
+    .btc-price .btr-all{width:38%;padding:0 20px;}
+    .btc-market-all .btc-market-cap .bt-left{width:50%;}
+    .btc-market-all .btc-market-cap .bt-rigt{width:30%;}
+    .spa-no{margin-left:60px;}
+}
+@media (max-width: 1178px){
+    .price-tab01 .nav-tabs{height:auto;background:#282828;}
+    .price-top .price-top-right{margin-bottom:10px;width:200px;float:left!important;margin-left:10px;}
+    .price-top .price-top-right input{width:160px;}
+}
+@media (max-width: 1176px){
+	/*头部*/
+	.top-logo{margin-right:2%;}
+	.top-list>li{margin-right:20px;}
+}
+@media (max-width: 1175px){
+    .btc-price .btc-market{padding-left:30px;}
+    .btc-price .btc-change{width:18%;padding-left:40px;}
+}
+@media (max-width: 1172px){
+	/*inside*/
+	.inside-con-bottom .follow{padding-left: 30px;}
+	.inside-inp{width: 250px;}
+}
+@media (max-width: 1170px){
+	/*头部*/
+	.top-left{width:70.4%}
+	.top-right{width:25%;}
+	/*底部*/
+	.bottom-info{padding:16px 50px 0;max-width:370px;}
+	.bottom-link,.bottom-lang{padding:35px 50px 0;}
+	/*news*/
+	.news-item-img,.news-item-txt{float:none;width:100%;}
+    .news-item-img img{width:100%;}
+    .news-item{padding:20px;}
+}
+@media (max-width: 1142px){
+	/*头部*/
+	.top-login{margin-left:0;}
+	/*底部*/
+	.bottom-info{padding:16px 30px 0;max-width:350px;}
+	.bottom-link,.bottom-lang{padding:35px 30px 0;}
+	/*首页*/
+	.home-panel-txt{width:80%;}
+}
+@media (max-width: 1124px){
+	/*头部*/
+	.top-login{margin-left:0;}
+}
+@media (max-width: 1121px){
+    .btc-price .btr-all{width:36%;padding:0 10px;}
+    .btc-price .btc-market-all{width:41%;}
+    .btc-market-all .btc-market-cap .bt-left{width:50%;}
+    .btc-market-all .btc-market-cap .bt-rigt{width:30%;}
+    .spa-no{margin-left:40px;}
+}
+@media (max-width: 1100px){
+	/*inside*/
+	.inside-con-bottom .follow{padding-left: 20px;}
+	.inside-inp{width: 230px;}
+    .inside-inp input{width: calc(100% - 80px);}
+    .inside-inp a{width: 80px;}
+}
+@media (max-width: 1108px){
+	/*头部*/
+	.top-link,.top-login{float:none}
+	/*菜单*/
+	.menu-search{width:140px;}
+	.menu-search>input{width:78px;}
+	/*底部*/
+	.bottom-info{padding:16px 20px 0;max-width:340px;}
+	.bottom-link,.bottom-lang{padding:35px 20px 0;}
+}
+@media (max-width: 1105px){
+    .btc-price .btc-logo .left-logo{margin-left:15px;}
+}
+@media (max-width: 1080px){
+	.bottom-lang{max-width:211px;}
+	/*首页*/
+	.home-list>li{width:calc((100% - 60px) / 2 );margin-bottom:20px;}
+	/*feeds*/
+	.feeds-top .feeds-top-right{width:140px;}
+	.feeds-top .feeds-top-right input{width:90px;}
+}
+@media (max-width: 1079px){
+    .ico-list .first-bro{width:70px;}
+    .clo-inp .price-top-right input{width: 120px;}
+    .clo-inp .price-top-right{width:170px;}
+}
+@media (max-width: 1072px){
+    .btc-price .btr-all{width:36%;padding:0 10px;}
+    .btc-price .btc-market-all{width:41%;}
+    .btc-market-all .btc-market-cap .bt-left{width:60%;}
+    .btc-market-all .btc-market-cap .bt-rigt{width:20%;}
+    .spa-no{margin-left:20px;}
+}
+@media (max-width: 1069px){
+	/*inside*/
+	.inside-con-bottom .follow{padding-left: 10px;}
+	.inside-inp{width: 190px;}
+}
+@media (max-width: 1058px){
+    .btc-price .btc-logo .left-logo{margin-left:8px;}
+    .btc-price .btc-change{width:16%;padding-left:20px;}
+    .btc-price .btc-market{width:37%;padding-left:20px;}
+}
+@media (max-width: 1054px){
+	/*ico_about*/
+	.ico-tab .nav-tabs>li{margin-right: 10px;}
+}
+@media (max-width: 1050px){
+    .price-tab01 .nav-tabs>li>a{font-size:12px;}
+}
+@media (max-width: 1048px){
+    .btc-price .btr-all{width:36%;padding:0 10px;}
+    .btc-price .btc-market-all{width:41%;}
+    .btc-market-all .btc-market-cap .bt-left{width:60%;}
+    .btc-market-all .btc-market-cap .bt-rigt{width:23%;}
+    .spa-no{margin-left:10px;}
+}
+@media(max-width:1024px){
+	/*菜单*/
+	.menu-list,.menu-search{float: none;}
+	.menu-list>li{margin-right:10px;}
+	.menu-search{clear:both;float:left;margin-top:0;}
+}
+/*移动端*/
+@media(max-width:1023px){
+	.container{width:960px;}
+	.main-content{margin-top:108px;margin-bottom:71px;}
+	.home,.news,.bitcoin,.feeds{margin:0;}
+	.main-crumb,.top-section,.bottom-section02,.left-nav,.home-banner,.home-cover,.menu-section,.main-content-right,.bottom-section01,.bottom-lang{display:none;}
+	.main-content .main-content-left{width:100%;}
+	/*home*/
+	.home-panel-list>li{width:calc((100% - 20px) / 2); padding:20px}
+	/*移动端底部*/
+	.web-bottom{display:block;position:fixed;bottom:0;left:0;z-index:999999;height:51px;width:100%;border-top:1px solid #ccc;background:#282828}
+	.web-bottom>a{float:left;width:20%;text-align:center}
+	.web-bottom>a>span{display:block;height:23px;width:23px;margin:7px auto 2px;background:url(../images/web_bottom_icon01.png) no-repeat;background-size:100%;}
+	.web-bottom>a:nth-child(2)>span{background:url(../images/web_bottom_icon02.png) no-repeat;background-size:100%;}
+	.web-bottom>a:nth-child(3)>span{background:url(../images/web_bottom_icon03.png) no-repeat;background-size:100%;}
+	.web-bottom>a:nth-child(4)>span{background:url(../images/web_bottom_icon04.png) no-repeat;background-size:100%;}
+	.web-bottom>a:nth-child(5)>span{background:url(../images/web_bottom_icon05.png) no-repeat;background-size:100%;}
+	.web-bottom>a.active>span{:23px;width:23px;margin:7px auto 2px;background:url(../images/web_bottom_icon01_on.png) no-repeat;background-size:100%;}
+	.web-bottom>a.active:nth-child(2)>span{background:url(../images/web_bottom_icon02_on.png) no-repeat;background-size:100%;}
+	.web-bottom>a.active:nth-child(3)>span{background:url(../images/web_bottom_icon03_on.png) no-repeat;background-size:100%;}
+	.web-bottom>a.active:nth-child(4)>span{background:url(../images/web_bottom_icon04_on.png) no-repeat;background-size:100%;}
+	.web-bottom>a.active:nth-child(5)>span{background:url(../images/web_bottom_icon05_on.png) no-repeat;background-size:100%;}
+	.web-bottom>a>p{color:white;font-size:12px;}
+	.web-bottom>a.active>p{color:#ffd200;}
+	/*移动端头部*/
+	.web-top-box{display:block;}
+	.web-top{text-align:center;display:block;height:40px;width:100%;background:#282828;position:fixed;top:0;left:0;z-index:999999;}
+	.web-top-menu{margin:11px 0 11px 10px;}
+	.web-top-logo{margin:4px 0;}
+	.web-top-search{display:none;height:30px;width:65%;margin:5px 0;border:1px solid #ccc;background:white;box-shadow: inset 0 1px 1px rgba(0,0,0,.075)}
+	.web-top-search>input{height:28px;width:calc(100% - 30px);padding:5px 10px;border:0;}
+	.web-top-img{width:30px;}
+	.web-top-icon{height:100%;width:30px;padding:10px 0;}
+	.web-top-img>img{width:16px;margin:7px 0;}
+	.web-top-icon>img{width:16px;}
+	.web-top-close,.web-top-penl{margin:9px 0 9px 10px;display:none;}
+	.web-top-list{background:white;border-bottom:1px solid #f1f1f1;width:100%;position:fixed;top:40px;left:0;z-index:999999;}
+	.web-top-list>ul>li{position:relative;float:left;padding-left:18px;line-height:24px;}
+	.web-top-list>ul>li:nth-child(even){padding:0;}
+	.web-top-list>ul>li>p>span{font-size:13px;color:#465a65;}
+	.web-top-list>ul>li>p,.web-top-option{padding:12px 0;}
+	.web-top-list>ul>li>p>a{display:inline-block;min-width:56px;margin:0 4px;font-size:13px;font-weight:bold;}
+	.web-top-list>ul>li>i{display:block;height:24px;width:1px;background:#ccc;margin:12px 0;}	
+	.web-top-list>ul>li b{display:inline-block;z-index:999999999999;height:16px;line-height:16px;text-align:center;width:16px;border-radius:50%;border:1px solid #666;margin-right:10px;}
+	.web-top-list>ul>li b.web-top-circle{border-color:#ffd200;}
+	.web-top-list>ul>li b img{margin-top:-4px;}
+	.web-top-list>ul>li .top-list-data{top:48px;left:-50px;}
+	/*cryptopedia*/
+	.news-item{padding:20px;}
+	.news-wrap{width:calc((100% - 20px) / 2);float:left;margin-right:20px;}
+	.news-wrap:nth-child(even){margin-right:0;}
+	.news-item-txt>p{padding-right:0;}
+	/*home*/
+	.home-detail{margin-top:0;}
+	/*inside*/
+	.inside-inp{margin: 10px 0 0 0;width: 300px;}
+	.inside-inp input{width: calc(100% - 100px);}
+	.inside-inp a{width: 100px;}
+	.main-content-left.margin01{margin:0;}
+	/*ico_about*/
+	.ico-container .container{padding: 0;}
+	.ico-tab .nav-tabs>li {margin-right: 10px;}
+	/*events*/
+	.events-container .container{padding:0}
+	.banner-margin{display:none}
+	.main-content-left .main-event-box .left-box{float:none !important;width:100%}
+	.main-content-left .main-event-box .left-box img{width:100%}
+	.main-content-left .main-event-box .right-box{float:none !important;width:100%}
+	.main-event-box{padding-right:20px}
+	.event-select{padding-left:20px;width:100%;height:40px;line-height:40px}
+	.event-select span{clear:both;margin-bottom:10px;line-height:20px}
+	/*introduce*/
+	.introduce-container .container{padding: 0;}
+	.introduce-top{display: none;}
+	.introduce-box .con-middle .title{margin: 20px 0;line-height: 40px;font-size: 36px;}
+	/*inside*/
+	.inside-container{padding:0}
+	.inside-title{padding:10px 0;font-size:30px}
+	.inside-inp{margin:0 0 0 20px;width:250px}
+	/*privacy*/
+	.privacy-container .container{padding:0}
+	.main-about-box{padding:0 20px}
+	.main-service-box{margin-top:20px;}
+	/*about*/
+	.about-container .container{padding:0}
+	.main-content01 .container{padding:20px}
+	.team-box-item{width:calc(50% - 20px)}
+    .price-tab01 .nav-tabs>li>a{line-height:49px;}
+    .infor .infor-about{padding-left:0;padding-right:0;}
+    .bitcoin{background:white}
+    .bitcoin-wrap .btc-price{margin-left:0;margin-right:0;}
+    .information .information-about{padding-left:0;}
+    .information .information-about .information-about-left,.information .information-about .information-about-right{font-size:14px;}
+    .information .information-about .information-about-left{padding-left:25%;}
+    .information .inf-name-left{width:120px;text-align:left;}
+    .information .inf-name-right>p{font-size:14px;}
+    /*ico样式开始*/
+    .js-silder-banner{display: none;}
+    .about-intr .about-ico{padding: 10px 20px 0;}
+    .about-intr h3{margin-top: 30px;}
+    .bitcoin-box
+    .home-detail.container{width: 100%;}
+    /*ico样式结束*/
+    .tab-left{margin-top:0;}
+}
+@media (max-width: 1010px){
+	/*ico_about*/
+	.ico-tab .nav-tabs>li{margin-right: 5px;}
+}
+@media(max-width:990px){
+	.container{width:750px;}
+	/*移动端头部*/
+	.web-top-list>ul>li .top-list-data{top:48px;left:-30px;width:116px;color:#555;font-size:12px;}
+	.web-top-list>ul>li .top-list-data>li>a{display:block;font-size:12px;padding:2px 10px;overflow:hidden;margin:0;}
+	/*advertise*/
+	.adv-form{width:100%;}
+	/*submit*/
+	.press-box{padding:0 20px;margin-top:0;}
+	.press{width:100%;}
+	.press-up>p{width:100%;text-align:left;}
+	.press-upload{clear:both;}
+	.press-up-info{line-height:40px;max-width:300px;}
+    table.table-bordered.dataTable tr td.special-list img{
+        margin-left:0;
+    }
+    table.table-bordered.dataTable tr td.special-list2 img{
+        margin-left:0;
+    }
+    .all-icon.list-exch{padding-left:20px;}
+    .all-icon .about-this{width:126px;text-align:left;padding-left:20px;font-size:12px;}
+    .all-icon.list-exchange{padding-left:20px;}
+    .all-icon a{font-size:12px;}
+    .btc-price .btc-change{width:20%;}
+    .btc-price .btc-market{width:33%;}
+    .information .information-about .information-about-left{padding-left:22%;}
+    table.table-bordered.dataTable tr td.special-list3 img{margin-left:0;}
+    .btc-price{margin: 0;}
+    .btc-market-all .btc-market-cap .bt-left{text-align: left;}
+    .btc-price .btr-all{width: 50%;}
+    .btc-price .btc-market-all{width:27%;}
+    .btc-market-all .btc-market-cap .bt-left{width:100%;}
+    .tab-coin .special-list2 img{margin-left:0;margin-right:2px;}
+}
+@media(max-width:790px){
+	.container{width:100%;padding:0 20px;}
+	/*introduce*/
+	.introduce-container .container{width:100%;padding:0}
+	.introduce-box .con-middle .title{padding:0;font-size:30px}
+	/*events*/
+    .main-event-box .left-box .register{margin-top:20px}
+    .home-detail.container{padding: 0;}
+}
+@media (max-width:780px){
+    .tab-coin .special-list2 img{margin:0;}
+}
+@media(max-width:767px){
+    /*ico_about*/
+    .main-crumb,.main-content-left .main-ico-top .box-left,.team-box .team-box-left{display:none}
+    .main-content-left .main-ico-top{padding:20px 20px 0}
+    .main-content-left .main-ico-top .box-right{width:100%}
+    .main-ico-top .box-right>h2{font-size:36px}
+    .ico-tab .nav-tabs{padding-left:20px;margin-bottom:20px}
+    .ico-tab .nav-tabs>li{margin-bottom:10px}
+    .team-box .team-box-right{width:100%}
+    .ico-tab-content .team-box{padding-right:0}
+    .ico-tab-content .team-box:first-child{padding-top:0}
+    .fina-title{margin-bottom:20px}
+    .miles{padding:0;margin:0;border:0}
+    .miles-box{padding:10px;margin-bottom:20px}
+    .miles-box .num,.miles-box .cover{display:none}
+    .ico-tab-content{padding:0 20px}
+    .financial-box .financial-info{margin:0 0 20px 0;width:100%}
+    .financial-box .financial-info:nth-child(2){margin:0}
+    .financial-info .box .box-item .left{width:60%}
+    .financial-info .box .box-item .right{width:auto}
+    .financial-info .box{clear:both!important;overflow:hidden}
+    /*introduce*/
+    .introduce-box .con-top .left{padding-left:0;width:50px}
+    .introduce-content .introduce-box01 .inside-con-middle p{margin:0 0 20px 0}
+    .introduce-box .con-middle .title{font-size:20px}
+    /*inside*/
+    .inside-title{padding:10px 0;font-size:20px}
+    .introduce-content .introduce-box01 .inside-con-middle p.grey-bg{padding:10px 20px}
+    .inside-con-bottom .follow-box{width:100%}
+    .inside-inp{margin:0;width:100%}
+    .inside-inp input{width:70%}
+    .inside-con-bottom a{width:20%;text-align:center;margin:10px 0 10px 0}
+    .inside-inp a{margin:0;width:30%}
+    .introduce-content .introduce-box01 .inside-con-middle{padding-bottom:10px}
+    .comment-box .inp{margin:0;width:100%}
+    .comment-box .com-a{margin-right:0}
+    .comment-con-box .com-item .right span{margin-right:20px}
+    /*privacy*/
+    .main-about-box .big-title{font-size:20px}
+    .main-about-box .para01 h4{font-size:18px}
+    /*about*/
+    .main-content01 .container{padding:20px}
+    .team-box-item{margin:0 0 20px 0;width:100%}
+    /*feeds样式开始*/
+    .main-content .main-content-left .feeds-top{height:auto;position:relative}
+    .feeds-top .feeds-top-left{padding-left:10px;float:none!important}
+    .feeds-tab01 .nav-tabs{padding-left:0;width:100%;margin:0}
+    .feeds-tab01 .nav-tabs>li>a{height:60px;line-height:60px;}
+    .feeds-top .feeds-top-right{position:absolute;right:0;top:0;}
+    .feeds-tab-content{padding:10px}
+    .main-content .main-content-left .feeds-top-middle{float: none!important; padding-left:0;}
+    .feeds-tab01 .nav-tabs>li{width: 50%;margin:0;}
+    .about-intr .about-ico{padding:10px 0 0 0;}
+    .home-intr{width:100%;}
+    .home-nav.container{padding: 0;}
+    .home-tab>li{width: 30%;margin: 0;}
+    .home-tab>li:first-child{width: 10%;margin: 0;}
+    .home-tab>li>a{min-width: auto;}
+    .home-detail .main-content-left .tab-content>div{width: 100%;overflow-x:scroll;}
+    .home-detail .main-content-left .tab-content01>div{width: 100%;overflow:hidden;}/*........................................*/
+    .social-ko{display: none;}
+    .clo-inp .price-top-right{width: 130px;}
+    .clo-inp .price-top-right input{width: 80px;}
+    table.dataTable.ico-list{min-width: 585px;}
+    .tab-content01 table.dataTable.ico-list{min-width:auto;}
+    .clo-inp .price-top-right input{width:40px;padding-left:0;}
+	.clo-inp .price-top-right{width:80px;}
+}
+@media(max-width:760px){
+	/*advertise*/
+	.adv-form>form{width:100%;padding:0 20px;}
+	.adv-form>form>button{display:block;width:60%;margin:0 auto;}
+    .btc-price .btc-tra{width:28%;}
+    .btc-price .btc-market{width:30%;}
+    .information .information-about .information-about-left{padding-left:18%;}
+}
+@media(max-width: 730px){
+    .btc-price .btc-change{clear:both;}
+    .bitcoin-wrap  .btc-price .btc-logo{margin-bottom:20px;}
+    .btc-price .btc-tra{border-right:0;margin-bottom:20px;}
+    .bitcoin-wrap .btc-price .btc-logo,.btc-price .btc-change{width:40%;}
+    .btc-price .btc-market,.btc-price .btc-tra{width:60%;}
+}
+@media(max-width: 690px){
+    .information .information-about .information-about-left{width:50%;padding-left:10%;}
+    .information .information-about .information-about-right{width:50%;}
+
+
+    /*............*/
+    .social-list{width:calc(100%/2);}
+    .tab-content01 .ico-list .social-list{margin-top:5px;}
+    .last-bo{margin-top:10px;}
+    /*............*/
+}
+@media(max-width:600px){
+	/*home*/
+	.home-panel-list>li{width:100%;}
+	/*cryptopedia*/
+	.news-wrap{width:100%;float:none;margin-right:20px;}
+	.news-wrap:nth-child(even){margin-right:0;}
+    .bitcoin-wrap .btc-price .btc-logo .right-logo{clear:both;margin-left:38px;}
+    .information .inf-name-left{width:110px}
+}
+@media (max-width: 597px){
+    .all-all, .all-pairs, .all-change{margin:10px;}
+    .price-top .dataTables_wrapper .dataTables_length{padding-left: 10px;text-align: left;}
+}
+@media(max-width:580px){
+	.main-content{margin-top:156px;}
+	/*移动端头部*/
+	.web-top-list>ul>li>i{height:24px;}
+	.web-top-list>ul>li>p>a{display:inline-block;}
+	.web-top-list>ul>li:nth-child(8){display:none}
+	.web-top-list>ul>li:nth-child(odd){width:calc((100% - 3px) / 4);}
+	.web-top-list>ul>li:last-child{padding:0px 0 0px 18px;}
+	/*移动端菜单*/
+	.web-menu-list{padding-top:140px;}
+}
+@media (max-width: 576px){
+    .global{
+        clear:both;
+        border:none;
+    }
+}
+@media(max-width:566px){
+	/*introduce*/
+    .introduce-box .con-top .date{margin-left:50px;float:left!important}
+}
+@media(max-width: 550px){
+    .information .information-about .information-about-left{width:100%;border-right:0;border-bottom:1px solid #eee;margin-bottom:20px;padding:0 22% 20px;}
+    .information .information-about .information-about-right{width:100%;padding:0 15% 20px;}
+    .information .inf-name-left{float:left!important;}
+    .information .inf-name-right{float:right!important;}
+}
+@media (max-width: 542px){
+    .all-icon a:first-child{margin-left:10px;}
+}
+@media (max-width: 520px){
+    .btc-price .btc-green,.btc-price .btr-all,.btc-price .btc-market-all{float: none!important;width: 100%;border: 0;}
+    .btc-price .btr-all{margin: 10px;padding: 10px 0; border-top: 1px solid #eeeeee;border-bottom:1px solid #eeeeee; }
+    .btc-price .btc-market-all{padding:0}
+    .btc-market-all .btc-market-cap .bt-left{text-align: right; width: 172px;}
+}
+@media(max-width:430px){
+	.main-content{margin-top:204px;}
+	/*移动端菜单*/
+	.web-menu-list{padding-top:180px;}
+	/*移动端头部*/
+	.web-top-list>ul>li>p>a{display:block;margin-left:0;}
+	.web-top-list>ul>li>i{height:48px;}
+	.web-top-list>ul>li:last-child{padding:12px 0 12px 18px;}
+    /*sumbit*/
+    .press-btn>button{float:none;width:80%;display:block;margin:0 auto;}
+    .press-btn>button:last-child{margin-right:auto;margin-top:20px;}
+}
+@media(max-width:413px){
+	/*feeds*/
+	.feeds-tab-content .box-item .con-right .share .box1{float:none!important}
+}
+@media(max-width:410px){
+	/*sumbit*/
+	.press-form .form-group>input{padding-left:10px;}
+	.press-btn>button{float:none;width:80%;display:block;margin:0 auto;}
+	.press-btn>button:last-child{margin-right:auto;margin-top:20px;}
+}
+@media(max-width:400px){
+	/*advertise*/
+	.adv>p{margin:50px auto 50px;}
+}
+@media(max-width:374px){
+	/*feeds*/
+	.feeds-top .feeds-top-right{width: 120px; margin-right: 10px;}
+	.feeds-top .feeds-top-right input{padding-right:0;width: 70px;}
+    .btc-price .btc-market-all{padding:0 0 0 10px}
+    .btc-market-all .btc-market-cap .bt-left{text-align: left; width: 100%;}
+}
+@media(max-width: 350px){
+    .btc-price .btc-market,.btc-price .btc-change{padding:0;}
+    .bitcoin-wrap .btc-price .btc-logo,.btc-price .btc-change,.btc-price .btc-market,.btc-price .btc-tra{width:100%}
+    .bitcoin-wrap .btc-price .btc-logo{border-right:0;border-bottom:1px solid #eee;padding-bottom:20px;}
+    .bitcoin-wrap .btc-price .btc-logo .right-logo{clear:none;text-align:center}
+    .btc-price .btc-tra{padding-left:0;text-align:center;}
+    .btc-change .change-num{float:right;margin:0;}
+    .btc-change .change-hour{float: left;margin:6px 0 20px;}
+    .btc-market .btc-market-cap .bt-left{text-align: left;}
+
+}
+@media (max-width: 331px){
+    .et-logo .et-logo-left{
+        margin-left:25px;
+    }
+}
+/*刘培红后加*/
+
+@media(max-width: 509px){
+	.change-th-list{width:calc(100%/2);}
+	.price-tab01 .nav-tabs>li>a{line-height:42px;}
+	.special-content .price-top .price-top-right{width:calc(100% - 40px);}
+	.special-content .price-top .price-top-right input{width:calc(100% - 40px)}
+	.price-tab01 .nav-tabs>li>a{margin:0;}
+@media(max-width: 690px){
+    
+
+
+    /*............*/
+    .social-list{width:calc(100%/2);}
+    .tab-content01 .ico-list .social-list{margin-top:5px;}
+    .last-bo{margin-top:10px;}
+    /*............*/
+}}
+@media(max-width:767px){
+	.home-detail .main-content-left .tab-content01>div{width: 100%;overflow:hidden;}/*........................................*/
+	.tab-content01 table.dataTable.ico-list{min-width:auto;}
+	.clo-inp .price-top-right input{width:40px;padding-left:0;}
+	.clo-inp .price-top-right{width:80px;}
+}
+@media(max-width:790px){
+	.special-content{padding:0 20px;}
+	.container-trd{padding:0;}
+}
+@media (max-width: 1023px){
+	.cont01{margin-top:10px;}
+	.infor .infor-about{padding:0 15px;}
+}
+
+
